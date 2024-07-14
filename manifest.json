@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Afficher mon IP publique",
+  "name": "Find my Public IP",
   "version": "1.0",
-  "description": "Affiche votre adresse IP publique.",
+  "description": "Find your public IP.",
   "permissions": [
     "http://ipinfo.io/"
   ],
