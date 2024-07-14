@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Afficher mon IP publique",
+  "version": "1.0",
+  "description": "Affiche votre adresse IP publique.",
+  "permissions": [
+    "http://ipinfo.io/"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon_16.png",
+      "48": "icons/icon_48.png",
+      "128": "icons/icon_128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon_16.png",
+    "48": "icons/icon_48.png",
+    "128": "icons/icon_128.png"
+  }
+}
