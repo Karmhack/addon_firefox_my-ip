@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
       document.getElementById('ip').textContent = data.ip;
     })
     .catch(error => {
-      document.getElementById('ip').textContent = 'Erreur lors de la récupération de l\'IP';
+      document.getElementById('ip').textContent = 'Error during the search for your public IP';
       console.error('Error:', error);
     });
 });
